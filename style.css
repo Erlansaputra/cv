@@ -1,83 +1,118 @@
-body {
-    background-color:greenyellow;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color:green;
 }
 
-.wrap-midle {
-    position: absolute;
-    right: 37%;
-    top: 12%;
-    text-align: center;
-    background-color:green;
-    width: 350px;
-    height: 450px;
-    border-radius: 10px;
-    border: 3px solid black;
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    height: 31rem;
+    width: 24rem;
+    background-color:greenyellow;
+    box-shadow: -5px 5px 20px 0px rgba(0, 0, 0, 0.5);
 }
 
 img {
-    width: 180px;
-    height: 180px;
-    border-radius: 60%;
-    margin-top: 2px;
-    border: 2px solid black;
+    border-radius: 50%;
+    border: 0.5rem solid #16a085;
+    width: 12rem;
+    height: 12rem;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .button {
-    background-color:green;
+    border-radius: 20px;
+    width: 7rem;
+    height: 0.5rem;
+    cursor: pointer;
+    background-color: #000000;
+    color: #dfe6e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.text {
+    font-family: "Comfortaa", cursive;
+    font-weight: bolder;
 }
 
 .button1{
-    color:black;
-    background-color:greenyellow;
-    border: 2px solid black;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    border-radius: 30px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Comfortaa", cursive;
+    font-weight: bolder;
 }
 
 .hello h1 {
-    color: black;
-    margin-top: 1px;
+    color: #16a085;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
 
 .name h1 {
-    color: black;
-    margin-bottom: 1px;
+    color: #16a085;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
 
 .description h2 {
-    color: greenyellow;
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: bold;
     margin-top: 1px;
+    text-align: center;
+    margin-bottom: 0.5rem;
 }
 
 .buttonsm {
-    margin-top: 3px;
-    /* background-color: red; */
+    background-color:;
+    height: 3rem;
+    width: 20rem;
     display: flex;
     justify-content: space-around;
-
+    align-items: center;
 }
 
 .fa-whatsapp-square {
-    color: black;
-    font-size: 30px;
+    color: #000000;
+    font-size: 3rem;
 }
 
 .fa-instagram {
-    color: black;
-    font-size: 30px;
+    color: #000000;
+    font-size: 3rem;
 }
 
 .fa-twitter-square {
-    color: black;
-    font-size: 30px;
+    color: #000000;
+    font-size: 3rem;
 }
 
 .fa-telegram {
-    color: black;
-    font-size: 30px;
+    color: #000000;
+    font-size: 3rem;
 }
